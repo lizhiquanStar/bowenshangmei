@@ -1,0 +1,208 @@
+#head{
+    height: 81px;
+    line-height: 81px;
+}
+#head .container .logo {
+    width: 163px;
+    height: 46px;
+    margin-top: 17px;
+    background: url(../images/logo.png) no-repeat 0 -17px;
+}
+#head .container ul li{
+    float: left;
+    margin-left: 46px;
+}
+#head .container ul li a{
+    font-size: 12px;
+}
+/* 轮播 */
+#lunbo .banner-list{
+    width: 100%;
+    height: 469px;
+    position: relative;
+}
+#lunbo .banner-list li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background: center 0 no-repeat;
+}
+#lunbo .banner-list li.active{
+    opacity: 1;
+}
+#lunbo .dot{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-19px);
+}
+#lunbo .dot li{
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+#lunbo .dot li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#lunbo .dot li.active{
+    background-color: #fff;
+}
+#service{
+    margin-top: 60px;
+}
+.service-banner{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#service .service-banner {
+    background: url(../images/titbg.jpg) no-repeat center -5px;
+}
+#service .service-list {
+    width: 106px;
+    height: 106px;
+    margin-left: 48px;
+}
+#service ul{
+    text-align: center;
+    margin-top: 32px;
+}
+#service ul li{
+    width: 200px;
+    margin-left: 56px;
+    float: left;
+}
+#service ul li h2{
+    margin: 32px 0 20px 0;
+    font-size: 14px;
+}
+#service ul li p{
+font-size: 12px;
+color: #7a7a7a;
+text-align: center;
+}
+#service ul li:nth-of-type(1) div{
+    background: url(../images/web1.png) no-repeat center;
+}
+#service ul li:nth-of-type(2) div {
+    background: url(../images/graphic1.png) no-repeat center;
+}
+#service ul li:nth-of-type(3) div {
+    background: url(../images/e-bussiness1.png) no-repeat center;
+}
+#service ul li:nth-of-type(4) div {
+    background: url(../images/mail1.png) no-repeat center;
+}
+/* 客户案例 */
+#case{
+    height: 460px;
+    margin-top: 65px;
+    background:#f8f8f8;
+    z-index: 1000;
+}
+#case .case-banner{
+    text-align: center;
+    background: url(../images/title_bg2.png) no-repeat center 60px;
+}
+#case .case-banner h2{
+    color:#66c5b4;
+    padding-top: 52px;
+}
+#case .case-list{
+    margin-top: 40px;
+    overflow: hidden;
+}
+#case .case-list li{
+    float: left;
+    margin: 0 10px;
+}
+#case .case-btn {
+    width: 180px;
+    height: 37px;
+    margin:35px auto 0;
+    line-height: 37px;
+    text-align: center;
+    background-color: #66c5b4;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+/* 最新资讯 */
+#news{
+    min-height: 450px;
+}
+#news .service-banner {
+    background: url(../images/title_bg2.png) no-repeat center 70px;
+}
+#news .service-banner h2{
+    padding-top: 62px;
+}
+.news-list{
+    margin-top: 58px;
+}
+.news-list ul{
+    width: 845px;
+    margin-top: 5px;
+}
+.news-list ul li{
+    width: 390px;
+    height: 72px;
+    float: left;
+    margin-bottom: 40px;
+}
+.news-list ul li .time-list{
+    margin-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #dcdcdc;
+}
+.news-list ul li .time-list span:first-child{
+    font-weight: bold;
+}
+.news-list ul li .miaoshu{
+    width: 309px;
+    margin-left: 15px;
+}
+.news-list ul li .miaoshu h3{
+    font-size: 14px;
+    color: #535353;
+    margin: 3px 0;
+    box-sizing: border-box;
+}
+.news-list ul li .miaoshu p{
+    font-size: 12px;
+    color: #a4a4a4;
+}
+/* foot底部 */
+#foot{
+    height: 54px;
+    background-color: #66c5b4;
+    line-height: 54px;
+    color: #fff;
+}
+#foot .container p {
+    font-size: 12px;
+}
+#foot .container ul li{
+    float: left;
+    
+}
+#foot .container ul li a{
+    width: 100%;
+    height: 100%;
+    padding: 0 14px;
+    border-right: 1px solid #fff;
+    font-size: 12px;
+    color: #fff;
+}
+/* #foot .container ul li a:nth-of-type(4){
+    border-right: none;
+} */
